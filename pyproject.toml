@@ -1,0 +1,16 @@
+[project]
+name = "synthetic-data-playground"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "faker>=40.43.0",
+    "mimesis>=22.2.0",
+    "pandas>=3.0.6",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "pytest>=9.1.1",
+    "ruff>=0.17.0",
+]
